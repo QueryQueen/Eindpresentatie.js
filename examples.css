@@ -36,6 +36,12 @@ td {
     border-radius: 20px;
 }
 
+.plaatje {
+    height: 40vh;
+    position: center center;
+    border-radius: 20px;
+}
+
 a {
     text-decoration: none;
 }
