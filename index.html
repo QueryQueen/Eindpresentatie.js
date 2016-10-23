@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eindpresentatie Java Eindhoven</title>
+    <meta name="author" content="Judith Crooy" />
+    <meta name="description" content="ProgramIT eindpresentatie." />
+    <meta name="keywords" content="Java, detachering, ProgramIT" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullpage.min.css" />
+    <link rel="stylesheet" href="jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#2998ce', '#4174a2', '#8fd5a6', '#579f2a', '#93c6d6']
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!--Dit is het navigatiemenu links boven -->
+    <ul id="menu">
+        <li data-menuanchor="home"><a href="#home">Home</a></li>
+        <li data-menuanchor="De aanloop"><a href="#section1">De aanloop</a></li>
+        <li data-menuanchor="OCA"><a href="#section2">OCA</a></li>
+        <li data-menuanchor="Zomerproject"><a href="#section3">Zomerproject</a></li>
+        <li data-menuanchor="Praktijkopdracht"><a href="#section4">Praktijkopdracht</a></li>
+    </ul>
+
+    <div id="fullpage">
+        <div class="section active" id="home">
+            <h1>Welkom</h1>
+            <img src="img/Teamfoto_ardennen.jpg" class="picture" alt="Teamfoto in de Ardennen">
+        </div>
+
+        <div class="section" id="section1">
+            <div class="slide ">
+                <h1>De aanloop</h1>
+            </div>
+            <div class="slide">
+                <h1>Selectie</h1>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <h1>OCA Examen</h1>
+        </div>
+
+
+        <div class="section" id="section3">
+
+            <div class="slide">
+                <h1>Zomerproject</h1>
+                <p>70-480 certificering: HTML5, Javascript, CSS3</p>
+                <br>
+                <img src="img/70-480_boek.jpg" alt="70-480 Examenboek">
+            </div>
+            <div class="slide">
+                <h1>Doelen</h1>
+                <ol>
+                    <li>1. Kennis binnen ProgramIt opbouwen</li>
+                    <li>2. Genereren van lesmateriaal</li>
+                </ol>
+            </div>
+            <div class="slide">
+                <h1>Onderwerpen</h1>
+                <ul>
+                    <li>Document structuur & objecten</li>
+                    <li>Program Flow</li>
+                    <li>Data - veiligheid & bereikbaarheid</li>
+                    <li>CSS3 - styling</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h1>HTML5</h1>
+                <p>Diverse onderwerpen gerelateerd aan de structuur van je webpagina</p>
+                <p>en verschillende objecten die je kunt gebruiken</p>
+                <p>Bijvoorbeeld: semantische mark-up, SEO, canvas, SVG, HTML5 API's</p>
+            </div>
+            <div class="slide">
+                <h1>Program flow</h1>
+            </div>
+            <div class="slide">
+                <h1>Data</h1>
+            </div>
+            <div class="slide">
+                <h1>CSS3</h1>
+            </div>
+        </div>
+        <!--End of section 3-->
+
+        <div class="section" id="section4">
+            <h1>Praktijkopdracht</h1>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
